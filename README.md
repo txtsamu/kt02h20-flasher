@@ -39,7 +39,11 @@ cd kt02h20-flasher
 pip install pyserial hidapi
 ```
 
-Download the firmware you want from the vendor (for example FiiO's *JadeAudio JA11 Firmware V2.2.zip*) and unzip it.
+Download the firmware you want from the vendor and unzip it. The FiiO JA11 firmware (*JadeAudio JA11 Firmware V2.2.zip*)
+is published on the official FiiO forum:
+**[FiiO forum — JadeAudio JA11 firmware](https://forum.fiio.com/note/showNoteContent.do?id=202406211150090736905)**.
+Download the zip from that page; inside, the file you need is `Firmware/JadeAudio JA11_V2.2.bin` (the `Upgrade Tool`
+folder is the Windows-only vendor GUI — you do **not** need it with `ktflash`).
 **Also get a stock image for your own dongle** so you can go back (see the warning above).
 
 ### 2. Set up permissions
